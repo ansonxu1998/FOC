@@ -58,9 +58,9 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="FOC.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FOC" TARGET_NAME="FOC.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="FOC" RUN_TARGET_NAME="FOC.elf">
@@ -87,6 +87,7 @@
       <workItem from="1692947797244" duration="10773000" />
       <workItem from="1693014286447" duration="9153000" />
       <workItem from="1693035788941" duration="4659000" />
+      <workItem from="1693124820399" duration="2165000" />
     </task>
     <servers />
   </component>
