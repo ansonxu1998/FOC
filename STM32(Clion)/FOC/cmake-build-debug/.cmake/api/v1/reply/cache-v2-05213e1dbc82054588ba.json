@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/WorkSpace/STM32/FOC/cmake-build-debug"
+			"value" : "c:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/STM32/FOC/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -779,7 +779,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/WorkSpace/STM32/FOC"
+			"value" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Program Files/mingw64/bin/mingw32-make.exe"
+			"value" : "D:/PROGRA~2/mingw64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/STM32/FOC/cmake-build-debug"
+			"value" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"
 		},
 		{
 			"name" : "FOC_IS_TOP_LEVEL",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/STM32/FOC"
+			"value" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC"
 		},
 		{
 			"name" : "ProcessorCount_cmd_getconf",

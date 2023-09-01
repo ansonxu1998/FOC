@@ -1,5 +1,5 @@
 CMakeFiles/FOC.elf.dir/Core/Src/syscalls.c.obj: \
- E:\WorkSpace\STM32\FOC\Core\Src\syscalls.c \
+ C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\Core\Src\syscalls.c \
  d:\tool\gnuarm~1\arm-none-eabi\include\sys\stat.h \
  d:\tool\gnuarm~1\arm-none-eabi\include\_ansi.h \
  d:\tool\gnuarm~1\arm-none-eabi\include\newlib.h \

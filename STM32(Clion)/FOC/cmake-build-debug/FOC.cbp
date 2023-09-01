@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/WorkSpace/STM32/FOC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FOC.elf">
-				<Option output="E:/WorkSpace/STM32/FOC/cmake-build-debug/FOC.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/WorkSpace/STM32/FOC/cmake-build-debug"/>
+				<Option output="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/FOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -28,12 +28,12 @@
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
 					<Add option="-DARM_MATH_CM3"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Core/Inc"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Inc"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -42,15 +42,15 @@
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 FOC.elf"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 FOC.elf"/>
+					<CompileFile command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FOC.elf/fast">
-				<Option output="E:/WorkSpace/STM32/FOC/cmake-build-debug/FOC.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/WorkSpace/STM32/FOC/cmake-build-debug"/>
+				<Option output="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/FOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -59,12 +59,12 @@
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
 					<Add option="-DARM_MATH_CM3"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Core/Inc"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include"/>
-					<Add directory="E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Inc"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -73,331 +73,343 @@
 					<Add directory="d:\tool\gnu arm embedded toolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 FOC.elf/fast"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 FOC.elf/fast"/>
+					<CompileFile command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/WorkSpace/STM32/FOC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/WorkSpace/STM32/FOC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/STM32/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/FOC_Config.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/FOC_Config.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/adc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/adc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/foc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/as5600.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/gpio.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/foc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/i2c.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/gpio.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/main.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/i2c.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/stm32f1xx_hal_conf.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/main.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/stm32f1xx_it.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/motor.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Inc/tim.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/EKF.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/stm32f1xx_it.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/adc.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc/tim.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/foc.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/EKF.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/gpio.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/adc.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/i2c.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/as5600.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/main.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/foc.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/stm32f1xx_hal_msp.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/gpio.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/stm32f1xx_it.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/i2c.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/syscalls.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/main.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/sysmem.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/motor.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/system_stm32f1xx.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Src/tim.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/stm32f1xx_it.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Core/Startup/startup_stm32f103zetx.s">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/syscalls.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/sysmem.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/system_stm32f1xx.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Src/tim.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Startup/startup_stm32f103zetx.s">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/LICENSE.txt">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM3l_math.a">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/STM32F103ZETX_FLASH.ld">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
 			<Option target="FOC.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/STM32/FOC/CMakeLists.txt">
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="FOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+			<Option target="FOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM3l_math.a">
+			<Option target="FOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/STM32F103ZETX_FLASH.ld">
+			<Option target="FOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

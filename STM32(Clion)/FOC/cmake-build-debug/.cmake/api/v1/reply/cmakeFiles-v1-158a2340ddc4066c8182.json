@@ -144,8 +144,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/WorkSpace/STM32/FOC/cmake-build-debug",
-		"source" : "E:/WorkSpace/STM32/FOC"
+		"build" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug",
+		"source" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC"
 	},
 	"version" : 
 	{

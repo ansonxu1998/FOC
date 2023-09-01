@@ -75,4 +75,11 @@ typedef struct
     float Min_Output;
     float I_Sum;
 }Speed_PID_Def;
+extern FOC_Output_Def FOC_Output;
+extern FOC_Input_Def FOC_Input;
+extern float Speed_Fdk;
+extern float Speed_Pid_Out;
+extern Speed_PID_Def Speed_PID_G;
+extern void FOC_Init(void);
+extern void FOC_Step(void);
 #endif //FOC_FOC_H

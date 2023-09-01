@@ -1,5 +1,5 @@
-"D:\tool\Jetbrain\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/mingw64/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=D:/tool/GNU Arm Embedded Toolchain/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/tool/GNU Arm Embedded Toolchain/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S E:\WorkSpace\STM32\FOC -B E:\WorkSpace\STM32\FOC\cmake-build-debug
+"D:\tool\Jetbrain\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/mingw64/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=D:/tool/GNU Arm Embedded Toolchain/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/tool/GNU Arm Embedded Toolchain/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC -B C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\cmake-build-debug
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/WorkSpace/STM32/FOC/cmake-build-debug
+-- Build files have been written to: C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug

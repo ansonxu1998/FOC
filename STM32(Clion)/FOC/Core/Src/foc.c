@@ -25,6 +25,8 @@ Speed_PID_Def Speed_PID_G;
 Alpha_Beat_Voltage_Def Alpha_Beat_Voltage_G;
 float EKF_Input[4];
 float EKF_Status[4];
+float Speed_Fdk;
+float Speed_Pid_Out;
 
 void ClarkTransform(ABC_Current_Def ABC_Current, Alpha_Beta_Current_Def *Alpha_Beta_Current) {
     Alpha_Beta_Current->I_alpha = ABC_Current.I_a;

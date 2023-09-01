@@ -33,6 +33,9 @@ extern "C" {
 /* USER CODE BEGIN Includes */
 #include "FOC_Config.h"
 #include "arm_math.h"
+#include "foc.h"
+#include "tim.h"
+#include "i2c.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

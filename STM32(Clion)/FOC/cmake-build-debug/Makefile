@@ -56,10 +56,10 @@ RM = "D:\tool\Jetbrain\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\WorkSpace\STM32\FOC
+CMAKE_SOURCE_DIR = C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\WorkSpace\STM32\FOC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\STM32\FOC\cmake-build-debug\CMakeFiles E:\WorkSpace\STM32\FOC\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\cmake-build-debug\CMakeFiles C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\STM32\FOC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anson\Desktop\FOC\STM32(Clion)\FOC\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,30 @@ Core/Src/adc.s: Core/Src/adc.c.s
 Core/Src/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/adc.c.s
 .PHONY : Core/Src/adc.c.s
+
+Core/Src/as5600.obj: Core/Src/as5600.c.obj
+.PHONY : Core/Src/as5600.obj
+
+# target to build an object file
+Core/Src/as5600.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/as5600.c.obj
+.PHONY : Core/Src/as5600.c.obj
+
+Core/Src/as5600.i: Core/Src/as5600.c.i
+.PHONY : Core/Src/as5600.i
+
+# target to preprocess a source file
+Core/Src/as5600.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/as5600.c.i
+.PHONY : Core/Src/as5600.c.i
+
+Core/Src/as5600.s: Core/Src/as5600.c.s
+.PHONY : Core/Src/as5600.s
+
+# target to generate assembly for a file
+Core/Src/as5600.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/as5600.c.s
+.PHONY : Core/Src/as5600.c.s
 
 Core/Src/foc.obj: Core/Src/foc.c.obj
 .PHONY : Core/Src/foc.obj
@@ -271,6 +295,30 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/motor.obj: Core/Src/motor.c.obj
+.PHONY : Core/Src/motor.obj
+
+# target to build an object file
+Core/Src/motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/motor.c.obj
+.PHONY : Core/Src/motor.c.obj
+
+Core/Src/motor.i: Core/Src/motor.c.i
+.PHONY : Core/Src/motor.i
+
+# target to preprocess a source file
+Core/Src/motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/motor.c.i
+.PHONY : Core/Src/motor.c.i
+
+Core/Src/motor.s: Core/Src/motor.c.s
+.PHONY : Core/Src/motor.s
+
+# target to generate assembly for a file
+Core/Src/motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOC.elf.dir\build.make CMakeFiles/FOC.elf.dir/Core/Src/motor.c.s
+.PHONY : Core/Src/motor.c.s
 
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
@@ -823,6 +871,9 @@ help:
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
+	@echo ... Core/Src/as5600.obj
+	@echo ... Core/Src/as5600.i
+	@echo ... Core/Src/as5600.s
 	@echo ... Core/Src/foc.obj
 	@echo ... Core/Src/foc.i
 	@echo ... Core/Src/foc.s
@@ -835,6 +886,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/motor.obj
+	@echo ... Core/Src/motor.i
+	@echo ... Core/Src/motor.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s

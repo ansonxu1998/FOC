@@ -158,27 +158,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Core/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Inc"
 				}
 			],
 			"language" : "C",
@@ -192,8 +192,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				9,
-				10,
 				11,
 				12,
 				13,
@@ -204,10 +202,10 @@
 				18,
 				19,
 				20,
-				80,
-				81,
-				82,
-				83,
+				21,
+				22,
+				23,
+				24,
 				84,
 				85,
 				86,
@@ -219,7 +217,11 @@
 				92,
 				93,
 				94,
-				95
+				95,
+				96,
+				97,
+				98,
+				99
 			]
 		},
 		{
@@ -296,33 +298,33 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Core/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "E:/WorkSpace/STM32/FOC/Middlewares/ST/ARM/DSP/Inc"
+					"path" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/Middlewares/ST/ARM/DSP/Inc"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				21
+				25
 			]
 		}
 	],
@@ -341,7 +343,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=E:/WorkSpace/STM32/FOC/cmake-build-debug/FOC.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/cmake-build-debug/FOC.map",
 				"role" : "flags"
 			},
 			{
@@ -366,7 +368,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "E:/WorkSpace/STM32/FOC/STM32F103ZETX_FLASH.ld",
+				"fragment" : "C:/Users/Anson/Desktop/FOC/STM32(Clion)/FOC/STM32F103ZETX_FLASH.ld",
 				"role" : "flags"
 			}
 		],
@@ -394,13 +396,11 @@
 				6,
 				7,
 				8,
-				22,
-				23,
-				24,
+				9,
+				10,
 				26,
 				27,
 				28,
-				29,
 				30,
 				31,
 				32,
@@ -418,10 +418,10 @@
 				44,
 				45,
 				46,
+				47,
 				48,
 				49,
 				50,
-				51,
 				52,
 				53,
 				54,
@@ -449,15 +449,17 @@
 				76,
 				77,
 				78,
-				96
+				79,
+				80,
+				81,
+				82,
+				100
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				9,
-				10,
 				11,
 				12,
 				13,
@@ -468,10 +470,10 @@
 				18,
 				19,
 				20,
-				80,
-				81,
-				82,
-				83,
+				21,
+				22,
+				23,
+				24,
 				84,
 				85,
 				86,
@@ -483,19 +485,23 @@
 				92,
 				93,
 				94,
-				95
+				95,
+				96,
+				97,
+				98,
+				99
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				21,
 				25,
-				47,
-				79,
-				97,
-				98
+				29,
+				51,
+				83,
+				101,
+				102
 			]
 		}
 	],
@@ -509,6 +515,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/as5600.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -529,6 +540,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/motor.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -561,6 +577,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Core/Src/as5600.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Core/Src/foc.c",
 			"sourceGroupIndex" : 1
 		},
@@ -580,6 +602,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/motor.c",
 			"sourceGroupIndex" : 1
 		},
 		{
